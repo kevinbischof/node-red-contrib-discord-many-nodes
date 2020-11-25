@@ -1,20 +1,20 @@
 <script type="text/javascript">
-    RED.nodes.registerType('lower-case',{
-        category: 'function',
-        color: '#a6bbcf',
+    RED.nodes.registerType('discordGetMessages',{
+        category: 'Discord',
+        color: '#7289DA',
         defaults: {
             name: {value:""}
         },
-        inputs:1,
-        outputs:1,
-        // icon: "file.png",
+        inputs: 0,
+        outputs: 1,
+        icon: "icons/discord-white.png",
         label: function() {
-            return this.name||"lower-case";
+            return this.name||"discordGetMessages";
         }
     });
 </script>
 
-<script type="text/html" data-template-name="lower-case">
+<script type="text/html" data-template-name="discordGetMessages">
     <div class="form-row">
         <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
         <input type="text" id="node-input-name" placeholder="Name">
@@ -22,5 +22,5 @@
 </script>
 
 <script type="text/html" data-help-name="lower-case">
-    <p>A simple node that converts the message payloads into all lower-case characters</p>
+    <p>A node that gets all incoming messages from your discord server</p>
 </script>

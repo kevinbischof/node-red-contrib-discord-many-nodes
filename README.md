@@ -23,3 +23,5 @@ Now Restart Node-RED:
 ```
 node-red-restart
 ```
+
+If you are using a service for Node-RED, then restart your service.

@@ -5,7 +5,9 @@
     "main": "index.js",
     "author": "Kevin Bischof <kevin.bischof@smail.th-koeln.de>",
     "license": "MIT",
-    "dependencies": {},
+    "dependencies": {
+        "discord.js": "^12.5.0"
+    },
     "bugs": {
         "url": "https://github.com/kevinbischof/node-red-contrib-discord-many-nodes/issues"
     },
