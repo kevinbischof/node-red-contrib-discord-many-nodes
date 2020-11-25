@@ -1,6 +1,19 @@
 {
-    "name" : "node-red-contrib-discord-many-nodes",
-    "node-red" : {
+    "name": "node-red-contrib-discord-many-nodes",
+    "version": "0.0.1",
+    "description": "Node-RED node for interacting with Discord with many nodes.",
+    "main": "index.js",
+    "author": "Kevin Bischof <kevin.bischof@smail.th-koeln.de>",
+    "license": "MIT",
+    "dependencies": {},
+    "bugs": {
+        "url": "https://github.com/kevinbischof/node-red-contrib-discord-many-nodes/issues"
+    },
+    "repository": "kevinbischof/node-red-contrib-discord-many-nodes",
+    "keywords": [
+        "node-red"
+    ],
+    "node-red": {
         "nodes": {
             "lower-case": "/nodes/lower-case.js"
         }
