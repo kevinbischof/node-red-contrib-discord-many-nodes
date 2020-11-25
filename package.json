@@ -1,6 +1,5 @@
 {
     "name" : "node-red-contrib-discord-many-nodes",
-    ...
     "node-red" : {
         "nodes": {
             "lower-case": "/nodes/lower-case.js"
