@@ -17,7 +17,7 @@
     ],
     "node-red": {
         "nodes": {
-            "lower-case": "/nodes/lower-case.js"
+            "discordGetMessages": "discord/discordGetMessages.js"
         }
     }
 }
